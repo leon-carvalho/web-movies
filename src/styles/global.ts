@@ -13,6 +13,7 @@ export default createGlobalStyle`
     --background: #FFFFFF;
     --text: #787878;
     --bright: #EBEBEB;
+    --darken: #e0e0e0
   }
 
   body {
