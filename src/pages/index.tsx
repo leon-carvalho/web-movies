@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '@/components/Header'
 
 export default function Home(): JSX.Element {
   return (
@@ -9,6 +10,7 @@ export default function Home(): JSX.Element {
       </Head>
 
       <main>
+        <Header />
         <h1>Hello Next</h1>
       </main>
     </div>
