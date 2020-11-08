@@ -117,6 +117,7 @@ Principais tecnologias e ferramentas usadas para desenvolver o projeto:
 - [Styled Components](https://styled-components.com/)
 - ESLint, Prettier e EditorConfig
 - Husky e LintStaged
+- NextJS PWA
 
 ---
 
