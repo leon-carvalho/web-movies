@@ -79,11 +79,10 @@ export default function Home({ movies }: IHomeProps): JSX.Element {
 
         <Container>
           <form onSubmit={handleSearch}>
-            <label htmlFor="search">
+            <label htmlFor="movieSearch">
               <SearchBar
                 type="search"
-                id="search"
-                name="search"
+                id="movieSearch"
                 isErrored={isErrored}
                 value={searchTerm}
                 placeholder="Busque um filme por nome, ano ou gênero"

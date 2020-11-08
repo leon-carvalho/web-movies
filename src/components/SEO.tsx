@@ -37,6 +37,8 @@ export default function SEO({
       <meta name="referrer" content="no-referrer-when-downgrade" />
       <meta name="google" content="notranslate" />
 
+      <link rel="manifest" href="/manifest.json" />
+
       <meta property="og:title" content={pageTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:locale" content="pt_BR" />

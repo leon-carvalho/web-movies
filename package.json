@@ -13,6 +13,7 @@
     "@cospired/i18n-iso-languages": "^2.1.2",
     "axios": "^0.21.0",
     "next": "10.0.1",
+    "next-pwa": "^3.1.5",
     "nprogress": "^0.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
