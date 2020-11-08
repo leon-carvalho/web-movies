@@ -1,30 +1,147 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2 align="center">Web App responsivo que consuma a API do The Movie DB e permita buscar e ver detalhes de filmes de seu catálogo.
+</h2>
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+[![GitHub Issues](https://img.shields.io/github/issues/leon-carvalho/web-movies.svg)](https://github.com/leon-carvalho/web-movies/issues)
+[![Repo Languages](https://img.shields.io/github/languages/count/leon-carvalho/web-movies?color=%2304D361.svg)](https://img.shields.io/github/languages/count/leon-carvalho/web-movies)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/leon-carvalho/web-movies.svg)](https://github.com/leon-carvalho/web-movies)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-```bash
-npm run dev
-# or
+</div>
+
+---
+
+## 📝 Sumário
+
+- [Acesse a versão online](#deployment)
+- [Como rodar o projeto](#getting_started)
+- [Ferramentas usadas](../CONTRIBUTING.md)
+- [Autor](#authors)
+
+## 🚀 Acesse a versão on-line <a name = "deployment"></a>
+
+Experimente a aplicação clicando no botão abaixo:
+
+<a href="https://cubos-movies.vercel.app/">
+  <img src="https://img.shields.io/badge/Acessar Web Movies%20online-cyan?style=for-the-badge" />
+</a>
+
+## 🏁 Rodando o projeto
+
+### Prerequisites
+
+**NodeJS** <br>
+
+[![NODEJS](https://img.shields.io/static/v1?label=node.js&message=NodeJS&color=878787&logo=node.js)](https://nodejs.org/en/)
+
+**Gerenciador de pacotes para JavaScript como NPM ou Yarn** <br>
+
+[![NPM](https://img.shields.io/static/v1?label=npm&message=npm&color=<COLOR>&logo=npm)](https://www.npmjs.com/)
+
+[![YARN](https://img.shields.io/static/v1?label=yarn&message=yarn&color=<COLOR>&logo=yarn)](https://yarnpkg.com/pt-BR/docs/install)
+
+**Git instalado em sua máquina (No Mac e no Linux o Git geralmente já vem instalado por padrão)** <br>
+[Baixe o Git de acordo com seu Sistema Operacional](https://git-scm.com/downloads)
+
+#### 🏠 Mode de desenvolvimento
+
+```shell
+# abra o seu terminal/cmd e clone o repositório
+
+git clone https://github.com/leon-carvalho/web-movies
+
+# use o terminal para acessar a pasta do projeto
+
+cd web-movies
+
+# instale as dependências do projeto (Nesse passo usaremos o Yarn ou NPM) rodando:
+
+yarn
+# ou se preferir usar o NPM rode:
+npm install
+
+# rode o projeto em modo de desenvolvimento
+
 yarn dev
+#or with NPM
+npm run dev
+
+# Teste a aplicação no seu navegador(Chrome, Firefox, Safari...) acessando o endereço "http://localhost:3000" 🎉🎉🎉
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### 🚀 Gere uma build e teste o modo de produção
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+É possível gerar uma build e similar o ambiente de produção, basta seguir o passo a passo:
 
-## Learn More
+```shell
+# abra o seu terminal/cmd e clone o repositório
 
-To learn more about Next.js, take a look at the following resources:
+git clone https://github.com/leon-carvalho/web-movies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# use o terminal para acessar a pasta do projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+cd web-movies
 
-## Deploy on Vercel
+# instale as dependências do projeto (Nesse passo usaremos o Yarn ou NPM) rodando:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+yarn
+# ou se preferir usar o NPM rode:
+npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# gere uma build do projeto
+
+yarn build
+#ou se preferir usar o NPM, rode:
+npm run build
+
+# rode o comando abaixo, para testar a build que foi gerada
+
+yarn start
+#ou se preferir usar o NPM, rode:
+npm run start
+
+# Teste a aplicação no seu navegador(Chrome, Firefox, Safari...) acessando o endereço "http://localhost:3000" 🎉🎉🎉
+
+```
+
+## 🔧 Rodando os testes do projeto
+
+O projeto conta com alguns testes unitários para executá-los, basta seguir o passo a passo:
+
+```shell
+# abra o seu terminal/cmd e clone o repositório
+
+git clone https://github.com/leon-carvalho/web-movies
+
+# use o terminal para acessar a pasta do projeto
+
+cd web-movies
+
+# instale as dependências do projeto (Nesse passo usaremos o Yarn ou NPM) rodando:
+
+yarn
+# ou se preferir usar o NPM rode:
+npm install
+
+yarn test
+#ou se preferir usar o NPM, rode:
+npm run test
+```
+
+## 🏗 Construído com <a name = "built_using"></a>
+
+Principais tecnologias e ferramentas usadas para desenvolver o projeto:
+
+- [Axios](https://github.com/axios/axios)
+- [NextJS](https://nextjs.org/)
+- [ReactJS](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+
+---
+
+<h3 align="center">
+  Feito com ❤️ por @leon-carvalho
+</h3>
