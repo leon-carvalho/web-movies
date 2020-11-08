@@ -12,8 +12,10 @@ export default createGlobalStyle`
     --secondary: #1cd0d0;
     --background: #FFFFFF;
     --text: #787878;
+    --dark: #121212;
     --bright: #EBEBEB;
-    --darken: #e0e0e0
+    --darken: #e0e0e0;
+    --danger: #ee0e0e;
   }
 
   body {
@@ -29,5 +31,14 @@ export default createGlobalStyle`
   h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     font-family: 'Abel', sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a, button {
+    cursor: pointer;
   }
 `
