@@ -1126,6 +1126,11 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@cospired/i18n-iso-languages@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@cospired/i18n-iso-languages/-/i18n-iso-languages-2.1.2.tgz#2dd4005ac975f369df522055f35ecbc404770bca"
+  integrity sha512-XylKOsWRyQm9sNanZnppRORXTLaL34uThyBQpTFwOGAYvNg9PeYsyTTfLA1FTCh02RV+kiwt/O/y14DR/OqpWg==
+
 "@emotion/is-prop-valid@^0.8.8":
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
