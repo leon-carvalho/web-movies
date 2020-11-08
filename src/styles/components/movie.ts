@@ -121,8 +121,10 @@ export const Content = styled.article`
         margin-left: 12px;
         margin-bottom: 24px;
 
-        &:nth-child(1) {
-          margin-left: 0;
+        @media (min-width: 768px) {
+          &:nth-child(1) {
+            margin-left: 0;
+          }
         }
 
         h3 {
