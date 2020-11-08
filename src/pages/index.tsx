@@ -6,6 +6,7 @@ import { useState, useCallback, FormEvent } from 'react'
 
 import api from '@/services/api'
 
+import SEO from '@/components/SEO'
 import Movie from '@/components/Movie'
 import Header from '@/components/Header'
 import Pagination from '@/components/Pagination'
@@ -68,10 +69,10 @@ export default function Home({ movies }: IHomeProps): JSX.Element {
 
   return (
     <>
-      <Head>
-        <title>Movie | busque filmes do the Movie DB</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <SEO
+        title="WebMovies, busque filmes no banco de dados do The Movie DB"
+        shouldExcludeTitleSuffix
+      />
 
       <main>
         <Header />

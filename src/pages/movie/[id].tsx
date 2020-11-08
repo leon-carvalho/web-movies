@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { useRouter } from 'next/router'
 
+import SEO from '@/components/SEO'
 import Movie from '@/components/Movie'
 
 import { formatPercent } from '@/utils/formatPercentage'
@@ -58,36 +59,40 @@ export default function MovieDetails({
 
   return (
     <>
-      <Header />
-      <Movie
-        isDetails
-        key={movie.id}
-        title={movie.title}
-        overview={movie.overview}
-        poster={movie.poster_path}
-        status={formatMovieStatus(movie.status)}
-        average={formatPercent(movie.vote_average)}
-        runtime={convertMinutesToHourAndMinutes(movie.runtime)}
-        releaseDate={formatToBrazilianDate(movie.release_date)}
-        genres={movie.genres.map(genre => {
-          return genre.name
-        })}
-        budget={formatToUsDolar(movie.budget)}
-        revenue={formatToUsDolar(movie.revenue)}
-        profit={formatToUsDolar(movie.revenue - movie.budget)}
-        originalLanguage={movieLanguage}
-      />
+      <SEO title={movie.title} />
 
-      {trailer && (
-        <iframe
-          width="100%"
-          height="600"
-          src={`https://www.youtube.com/embed/${trailer.key}`}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      )}
+      <main>
+        <Header />
+        <Movie
+          isDetails
+          key={movie.id}
+          title={movie.title}
+          overview={movie.overview}
+          poster={movie.poster_path}
+          status={formatMovieStatus(movie.status)}
+          average={formatPercent(movie.vote_average)}
+          runtime={convertMinutesToHourAndMinutes(movie.runtime)}
+          releaseDate={formatToBrazilianDate(movie.release_date)}
+          genres={movie.genres.map(genre => {
+            return genre.name
+          })}
+          budget={formatToUsDolar(movie.budget)}
+          revenue={formatToUsDolar(movie.revenue)}
+          profit={formatToUsDolar(movie.revenue - movie.budget)}
+          originalLanguage={movieLanguage}
+        />
+
+        {trailer && (
+          <iframe
+            width="100%"
+            height="600"
+            src={`https://www.youtube.com/embed/${trailer.key}`}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        )}
+      </main>
     </>
   )
 }
