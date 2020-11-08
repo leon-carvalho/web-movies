@@ -23,8 +23,8 @@
 
 Experimente a aplicação clicando no botão abaixo:
 
-<a href="https://cubos-movies.vercel.app/">
-  <img src="https://img.shields.io/badge/Acessar Web Movies%20online-cyan?style=for-the-badge" />
+<a href="https://web-movies.vercel.app/">
+  <img src="https://img.shields.io/badge/🌍 🚀  Acessar web-movies%20online?style=for-the-badge&color=116193" />
 </a>
 
 ## 🏁 Rodando o projeto
@@ -115,6 +115,8 @@ Principais tecnologias e ferramentas usadas para desenvolver o projeto:
 - [ReactJS](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/)
+- ESLint, Prettier e EditorConfig
+- Husky e LintStaged
 
 ---
 
