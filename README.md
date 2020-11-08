@@ -16,7 +16,7 @@
 
 - [Acesse a versão online](#deployment)
 - [Como rodar o projeto](#getting_started)
-- [Ferramentas usadas](../CONTRIBUTING.md)
+- [Ferramentas usadas](#built_using)
 - [Autor](#authors)
 
 ## 🚀 Acesse a versão on-line <a name = "deployment"></a>
@@ -44,7 +44,7 @@ Experimente a aplicação clicando no botão abaixo:
 **Git instalado em sua máquina (No Mac e no Linux o Git geralmente já vem instalado por padrão)** <br>
 [Baixe o Git de acordo com seu Sistema Operacional](https://git-scm.com/downloads)
 
-#### 🏠 Mode de desenvolvimento
+### 🏠 Modo de desenvolvimento (ambiente local)
 
 ```shell
 # abra o seu terminal/cmd e clone o repositório
@@ -71,7 +71,7 @@ npm run dev
 
 ```
 
-#### 🚀 Gere uma build e teste o modo de produção
+### 🚀 Gere uma build e teste a versão de produção
 
 É possível gerar uma build e similar o ambiente de produção, basta seguir o passo a passo:
 
@@ -106,7 +106,7 @@ npm run start
 
 ```
 
-## 🔧 Rodando os testes do projeto
+### ✅ Rodando os testes do projeto
 
 O projeto conta com alguns testes unitários para executá-los, basta seguir o passo a passo:
 
