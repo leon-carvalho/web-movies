@@ -9,4 +9,8 @@ export const Container = styled.header`
   padding: 20px;
   color: var(--secondary);
   background-color: var(--primary);
+
+  h1 {
+    cursor: pointer;
+  }
 `
