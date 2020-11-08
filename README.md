@@ -106,30 +106,6 @@ npm run start
 
 ```
 
-### ✅ Rodando os testes do projeto
-
-O projeto conta com alguns testes unitários para executá-los, basta seguir o passo a passo:
-
-```shell
-# abra o seu terminal/cmd e clone o repositório
-
-git clone https://github.com/leon-carvalho/web-movies
-
-# use o terminal para acessar a pasta do projeto
-
-cd web-movies
-
-# instale as dependências do projeto (Nesse passo usaremos o Yarn ou NPM) rodando:
-
-yarn
-# ou se preferir usar o NPM rode:
-npm install
-
-yarn test
-#ou se preferir usar o NPM, rode:
-npm run test
-```
-
 ## 🏗 Construído com <a name = "built_using"></a>
 
 Principais tecnologias e ferramentas usadas para desenvolver o projeto:
